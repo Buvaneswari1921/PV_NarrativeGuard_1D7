@@ -1,0 +1,9 @@
+﻿metric,value
+Source OAE rows,10589
+MedDRA-linked rows evaluated,7425
+SAFE candidates,7269
+AMBIGUOUS candidates,42
+NEEDS_REVIEW candidates,114
+Unique normalized labels,7322
+Labels mapping to >1 MedDRA ID,129
+Synonyms mapping to >1 MedDRA ID,151

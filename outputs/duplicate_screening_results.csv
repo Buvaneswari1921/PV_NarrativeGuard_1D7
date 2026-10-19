@@ -1,0 +1,28 @@
+incoming_case_id,candidate_case_id,similarity_score,matching_fields
+INCOMING001,CASE001,80,"patient_age, patient_sex, country, suspect_drug, event_date, reporter_type"
+INCOMING001,CASE005,15,"patient_sex, reporter_type"
+INCOMING001,CASE004,15,"country, reporter_type"
+INCOMING002,CASE004,15,"patient_sex, reporter_type"
+INCOMING002,CASE002,10,patient_sex
+INCOMING002,CASE001,5,reporter_type
+INCOMING003,CASE002,80,"patient_age, patient_sex, country, suspect_drug, event_date, reporter_type"
+INCOMING003,CASE004,10,patient_sex
+INCOMING003,CASE001,0,
+INCOMING004,CASE001,65,"patient_sex, country, suspect_drug, adverse_event, reporter_type"
+INCOMING004,CASE005,15,"patient_sex, reporter_type"
+INCOMING004,CASE004,15,"country, reporter_type"
+INCOMING008,CASE005,35,"patient_sex, adverse_event, reporter_type"
+INCOMING008,CASE003,30,"patient_sex, suspect_drug"
+INCOMING008,CASE001,25,"patient_sex, country, reporter_type"
+INCOMING009,CASE004,35,"patient_sex, suspect_drug, reporter_type"
+INCOMING009,CASE002,20,"patient_sex, country"
+INCOMING009,CASE001,5,reporter_type
+INCOMING010,CASE005,45,"patient_age, patient_sex, suspect_drug"
+INCOMING010,CASE001,10,patient_sex
+INCOMING010,CASE003,10,patient_sex
+INCOMING011,CASE004,15,"patient_sex, reporter_type"
+INCOMING011,CASE003,10,country
+INCOMING011,CASE002,10,patient_sex
+INCOMING012,CASE001,25,"patient_sex, country, reporter_type"
+INCOMING012,CASE005,15,"patient_sex, reporter_type"
+INCOMING012,CASE004,15,"country, reporter_type"

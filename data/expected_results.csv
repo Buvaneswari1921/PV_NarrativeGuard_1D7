@@ -1,0 +1,5 @@
+incoming_case_id,expected_duplicate,expected_case_id,duplicate_type
+INCOMING001,True,CASE001,Paraphrased duplicate
+INCOMING002,False,,New case
+INCOMING003,True,CASE002,Paraphrased duplicate
+INCOMING004,False,,Similar drug/event but different patient and event date

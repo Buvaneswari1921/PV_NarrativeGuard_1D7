@@ -1,0 +1,13 @@
+case_id,validation_status,duplicate_status,human_duplicate_decision,narrative_eligibility,narrative_status,narrative_qc_status,reason
+INCOMING001,VALID,High-confidence duplicate candidate,NEW,ELIGIBLE,NOT_GENERATED - ON DEMAND,NOT_RUN,Human PV review confirmed NEW case
+INCOMING002,VALID,Low similarity,,ELIGIBLE,NOT_GENERATED - ON DEMAND,NOT_RUN,No significant duplicate signal
+INCOMING003,VALID,High-confidence duplicate candidate,DUPLICATE,BLOCKED_DUPLICATE,BLOCKED - DUPLICATE,NOT_RUN,Human PV review confirmed DUPLICATE
+INCOMING004,VALID,Potential duplicate - human review,NEW,ELIGIBLE,NOT_GENERATED - ON DEMAND,NOT_RUN,Human PV review confirmed NEW case
+INCOMING005,INVALID,EXCLUDED,,BLOCKED,EXCLUDED,,Invalid ICSR
+INCOMING006,INVALID,EXCLUDED,,BLOCKED,EXCLUDED,,Invalid ICSR
+INCOMING007,INVALID,EXCLUDED,,BLOCKED,EXCLUDED,,Invalid ICSR
+INCOMING008,VALID,Potential duplicate - human review,,PENDING_HUMAN_REVIEW,BLOCKED - HUMAN DUPLICATE REVIEW REQUIRED,NOT_RUN,Potential duplicate requires qualified PV review
+INCOMING009,VALID,Potential duplicate - human review,,PENDING_HUMAN_REVIEW,BLOCKED - HUMAN DUPLICATE REVIEW REQUIRED,NOT_RUN,Potential duplicate requires qualified PV review
+INCOMING010,VALID,Low similarity,,ELIGIBLE,NOT_GENERATED - ON DEMAND,NOT_RUN,No significant duplicate signal
+INCOMING011,VALID,Low similarity,,ELIGIBLE,NOT_GENERATED - ON DEMAND,NOT_RUN,No significant duplicate signal
+INCOMING012,VALID,Potential duplicate - human review,,PENDING_HUMAN_REVIEW,BLOCKED - HUMAN DUPLICATE REVIEW REQUIRED,NOT_RUN,Potential duplicate requires qualified PV review

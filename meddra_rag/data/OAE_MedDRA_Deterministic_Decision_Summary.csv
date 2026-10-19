@@ -1,0 +1,6 @@
+controlled_decision,record_count,percentage
+SAFE_EXACT,7269,97.9
+SAFE_ALIAS,0,0.0
+AMBIGUOUS,156,2.1
+NEEDS_REVIEW,0,0.0
+NOT_MAPPED,0,0.0

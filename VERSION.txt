@@ -1,0 +1,3 @@
+PV NarrativeGuard 1D7
+Release: Final consolidated build
+Baseline: Phase 1C / 50 regression tests passing

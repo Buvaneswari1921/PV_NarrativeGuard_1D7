@@ -1,0 +1,22 @@
+incoming_case_id,candidate_case_id,rule_score,matching_fields,semantic_score,combined_score,classification
+INCOMING001,CASE001,80,"patient_age, patient_sex, country, suspect_drug, event_date, reporter_type",0.9794338666540142,0.9076603199924086,High-confidence duplicate candidate
+INCOMING001,CASE004,15,"country, reporter_type",0.7608903514054852,0.5165342108432911,Low similarity
+INCOMING002,CASE002,10,patient_sex,0.7926633465832971,0.5155980079499782,Low similarity
+INCOMING002,CASE004,15,"patient_sex, reporter_type",0.7100769720777386,0.4860461832466431,Low similarity
+INCOMING002,CASE001,5,reporter_type,0.7163034767423697,0.44978208604542186,Low similarity
+INCOMING003,CASE002,80,"patient_age, patient_sex, country, suspect_drug, event_date, reporter_type",0.9817522533063386,0.9090513519838033,High-confidence duplicate candidate
+INCOMING003,CASE004,10,patient_sex,0.715719587858336,0.4694317527150016,Low similarity
+INCOMING003,CASE001,0,,0.731409255750514,0.43884555345030835,Low similarity
+INCOMING004,CASE001,65,"patient_sex, country, suspect_drug, adverse_event, reporter_type",0.9836176177932935,0.8501705706759761,Potential duplicate - human review
+INCOMING004,CASE004,15,"country, reporter_type",0.7344826467892235,0.500689588073534,Low similarity
+INCOMING008,CASE003,30,"patient_sex, suspect_drug",0.8734179073966029,0.6440507444379617,Potential duplicate - human review
+INCOMING008,CASE005,35,"patient_sex, adverse_event, reporter_type",0.7900223516599432,0.6140134109959658,Low similarity
+INCOMING008,CASE001,25,"patient_sex, country, reporter_type",0.7774854822349435,0.566491289340966,Low similarity
+INCOMING009,CASE004,35,"patient_sex, suspect_drug, reporter_type",0.8890013839769623,0.6734008303861774,Potential duplicate - human review
+INCOMING009,CASE002,20,"patient_sex, country",0.7583884382825404,0.5350330629695242,Low similarity
+INCOMING010,CASE005,45,"patient_age, patient_sex, suspect_drug",0.7926253232406862,0.6555751939444118,Low similarity
+INCOMING010,CASE003,10,patient_sex,0.7514132995936961,0.49084797975621763,Low similarity
+INCOMING011,CASE004,15,"patient_sex, reporter_type",0.7353883721945412,0.5012330233167247,Low similarity
+INCOMING011,CASE002,10,patient_sex,0.7457691812199648,0.4874615087319789,Low similarity
+INCOMING012,CASE005,15,"patient_sex, reporter_type",0.8440552317146343,0.5664331390287805,Potential duplicate - human review
+INCOMING012,CASE001,25,"patient_sex, country, reporter_type",0.7444493177452759,0.5466695906471656,Low similarity

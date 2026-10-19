@@ -1,0 +1,151 @@
+core_id,preferred_label,test_alias,resolution_status,candidate_count,meddra_ids
+PV001,fatigue,fatigue,RESOLVED,2,10024264|10024264|10016256
+PV002,malaise,malaise,RESOLVED,1,10025482
+PV003,pain,pain,RESOLVED,1,10033371
+PV004,chills,chills,RESOLVED,1,10008531
+PV005,feeling hot,feeling hot,RESOLVED,1,10016334
+PV006,weight increased,weight increased,RESOLVED,1,10047899|10047896
+PV007,abdominal discomfort,abdominal discomfort,RESOLVED,1,10000059
+PV008,jaundice,jaundice,RESOLVED,1,10023126
+PV009,infection,infection,RESOLVED,1,10021789
+PV010,haematuria,haematuria,RESOLVED,2,10019450|10018870|10018867|10018867
+PV011,nausea,nausea,RESOLVED,1,10028813
+PV012,vomiting,vomiting,RESOLVED,1,10047700
+PV013,diarrhea,diarrhea,RESOLVED,1,10012735
+PV014,constipation,constipation,RESOLVED,1,10010774
+PV015,abdominal pain,abdominal pain,RESOLVED,1,10000081
+PV016,dyspepsia,dyspepsia,RESOLVED,1,10013946
+PV017,dysphagia,dysphagia,RESOLVED,1,10013950
+PV018,dry mouth,dry mouth,RESOLVED,1,10013781
+PV019,flatulence,flatulence,RESOLVED,2,10016766
+PV020,abdominal distension,abdominal distension,RESOLVED,1,10000060
+PV021,toothache,toothache,RESOLVED,1,10044055
+PV022,stomatitis,stomatitis,RESOLVED,1,10042128
+PV023,taste disorder,taste disorder,RESOLVED,1,10082490
+PV024,gastroenteritis,gastroenteritis,RESOLVED,1,10017888
+PV025,gastric ulcer,gastric ulcer,RESOLVED,1,10017822
+PV026,haemorrhoids,haemorrhoids,RESOLVED,2,10019611|10019022|10019022
+PV027,dysuria,dysuria,RESOLVED,1,10013990
+PV028,urinary retention,urinary retention,RESOLVED,1,10046555
+PV029,urinary tract infection,urinary tract infection,RESOLVED,1,10046571
+PV030,headache,headache,RESOLVED,1,10019211
+PV031,dizziness,dizziness,RESOLVED,1,10013573
+PV032,somnolence,somnolence,RESOLVED,1,10041349
+PV033,insomnia,insomnia,RESOLVED,1,10022437
+PV034,tremor,tremor,RESOLVED,1,10044565
+PV035,seizure,seizure,RESOLVED,1,10039910|10039906
+PV036,syncope,syncope,RESOLVED,2,10042772|10024855|10024855
+PV037,presyncope,presyncope,RESOLVED,1,10036653
+PV038,confusion,confusion,RESOLVED,2,10010305|10010305|10010300
+PV039,memory impairment,memory impairment,RESOLVED,1,10027175
+PV040,vertigo,vertigo,RESOLVED,1,10047340
+PV041,neuropathy peripheral,neuropathy peripheral,RESOLVED,2,10029331
+PV042,ageusia,ageusia,RESOLVED,1,10001480
+PV043,anosmia,anosmia,RESOLVED,1,10002653
+PV044,restlessness,restlessness,RESOLVED,1,10038743
+PV045,cough,cough,RESOLVED,1,10011224
+PV046,wheezing,wheezing,RESOLVED,1,10047924
+PV047,epistaxis,epistaxis,RESOLVED,2,10015090
+PV048,nasal congestion,nasal congestion,RESOLVED,1,10028735
+PV049,sore throat,sore throat,RESOLVED,1,10041367
+PV050,pharyngitis,pharyngitis,RESOLVED,1,10034835
+PV051,bronchospasm,bronchospasm,RESOLVED,1,10006482
+PV052,pneumonia,pneumonia,RESOLVED,1,10035664
+PV053,upper respiratory tract infection,upper respiratory tract infection,RESOLVED,1,10046300
+PV054,oropharyngeal pain,oropharyngeal pain,RESOLVED,1,10068319
+PV055,dysphonia,dysphonia,RESOLVED,1,10013952
+PV056,bronchitis,bronchitis,RESOLVED,1,10006451
+PV057,sinusitis,sinusitis,RESOLVED,1,10040753
+PV058,respiratory tract infection,respiratory tract infection,RESOLVED,1,10062352
+PV059,rash,rash,RESOLVED,1,10037844
+PV060,pruritus,pruritus,RESOLVED,1,10037087
+PV061,urticaria,urticaria,RESOLVED,1,10046735
+PV062,erythema,erythema,RESOLVED,1,10015150
+PV063,dermatitis,dermatitis,RESOLVED,1,10012431
+PV064,alopecia,alopecia,RESOLVED,1,10001760
+PV065,dry skin,dry skin,RESOLVED,1,10013786
+PV066,hyperhidrosis,hyperhidrosis,RESOLVED,1,10020642
+PV067,angioedema,angioedema,RESOLVED,2,10002473
+PV068,photosensitivity reaction,photosensitivity reaction,RESOLVED,1,10034972|10034966
+PV069,skin exfoliation,skin exfoliation,RESOLVED,1,10040844
+PV070,acne,acne,RESOLVED,1,10000496
+PV071,blister,blister,RESOLVED,1,10005191
+PV072,contact dermatitis,contact dermatitis,RESOLVED,1,10010790
+PV073,eczema,eczema,RESOLVED,1,10014184
+PV074,skin irritation,skin irritation,RESOLVED,1,10040880
+PV075,hypertension,hypertension,RESOLVED,1,10020772|10005750
+PV076,hypotension,hypotension,RESOLVED,1,10021097|10005734
+PV077,tachycardia,tachycardia,RESOLVED,1,10043071
+PV078,bradycardia,bradycardia,RESOLVED,1,10006093
+PV079,palpitation,palpitation,RESOLVED,2,10033557
+PV080,chest pain,chest pain,RESOLVED,1,10008479
+PV081,arrhythmia,arrhythmia,RESOLVED,1,10003119
+PV082,atrial fibrillation,atrial fibrillation,RESOLVED,1,10003658
+PV083,flushing,flushing,RESOLVED,1,10016825
+PV084,electrocardiogram qt prolonged,electrocardiogram qt prolonged,RESOLVED,1,10014387
+PV085,arthralgia,arthralgia,RESOLVED,1,10003239
+PV086,myalgia,myalgia,RESOLVED,1,10028411
+PV087,back pain,back pain,RESOLVED,1,10003988
+PV088,neck pain,neck pain,RESOLVED,1,10028836
+PV089,pain in extremity,pain in extremity,RESOLVED,1,10033425
+PV090,muscle spasm,muscle spasm,RESOLVED,1,10028334
+PV091,joint swelling,joint swelling,RESOLVED,1,10023232
+PV092,musculoskeletal pain,musculoskeletal pain,RESOLVED,1,10028391
+PV093,bone pain,bone pain,RESOLVED,1,10006002
+PV094,joint stiffness,joint stiffness,RESOLVED,1,10023230
+PV095,injection site infection,injection site infection,RESOLVED,1,10022076
+PV096,injection site plaque,injection site plaque,RESOLVED,1,10073174
+PV097,injection site hypertrophy,injection site hypertrophy,RESOLVED,1,10022072
+PV098,injection site vasculitis,injection site vasculitis,RESOLVED,1,10067995
+PV099,injection site streaking,injection site streaking,RESOLVED,1,10066778
+PV100,anemia,anemia,RESOLVED,2,10002272|10002034|10002034
+PV101,thrombocytopenia,thrombocytopenia,RESOLVED,1,10043554
+PV102,neutropenia,neutropenia,RESOLVED,1,10029354
+PV103,leukopenia,leukopenia,RESOLVED,1,10024384
+PV104,lymphopenia,lymphopenia,RESOLVED,1,10025327
+PV105,eosinophilia,eosinophilia,RESOLVED,1,10014950
+PV106,platelet count decreased,platelet count decreased,RESOLVED,1,10035528
+PV107,blood creatinine level increased,blood creatinine level increased,RESOLVED,1,10011368|10005483
+PV108,transaminase level increased,transaminase level increased,RESOLVED,1,10054889
+PV109,blood glucose increased,blood glucose increased,RESOLVED,2,10005557
+PV110,blood glucose decreased,blood glucose decreased,RESOLVED,2,10005555
+PV111,blood potassium decreased,blood potassium decreased,RESOLVED,1,10005724
+PV112,blood potassium increased,blood potassium increased,RESOLVED,1,10005725
+PV113,hepatic enzyme increased,hepatic enzyme increased,RESOLVED,1,10060795
+PV114,anaphylaxis,anaphylaxis,RESOLVED,1,10002218
+PV115,anaphylactic shock,anaphylactic shock,RESOLVED,1,10002199
+PV116,acute kidney injury,acute kidney injury,RESOLVED,2,10069339|10038436|10038436
+PV117,myocardial infarction,myocardial infarction,RESOLVED,2,10028596|10028596|10007617|10007515
+PV118,stroke,stroke,RESOLVED,1,10042244
+PV119,pulmonary embolism,pulmonary embolism,RESOLVED,2,10037437|10037377|10037437
+PV120,deep vein thrombosis,deep vein thrombosis,RESOLVED,1,10051055
+PV121,thrombosis,thrombosis,RESOLVED,1,10043607
+PV122,sepsis,sepsis,RESOLVED,1,10040047
+PV123,cardiac arrest,cardiac arrest,RESOLVED,3,10028596|10028596|10007617|10007515|10007617
+PV124,respiratory failure,respiratory failure,RESOLVED,2,10038695
+PV125,acute respiratory distress syndrome,acute respiratory distress syndrome,RESOLVED,2,10001052
+PV126,loss of consciousness,loss of consciousness,RESOLVED,2,10042772|10024855|10024855
+PV127,abasia,abasia,RESOLVED,1,10049460
+PV128,abdomen crushing,abdomen crushing,RESOLVED,1,10005525|10000044
+PV129,abdominal abscess,abdominal abscess,RESOLVED,1,10060921
+PV130,abdominal compartment syndrome,abdominal compartment syndrome,RESOLVED,1,10058808|10037016
+PV131,abdominal distress,abdominal distress,RESOLVED,1,10000062
+PV132,abdominal hernia,abdominal hernia,RESOLVED,1,10060954|10052229
+PV133,abdominal infection,abdominal infection,RESOLVED,1,10056519
+PV134,abdominal injury,abdominal injury,RESOLVED,1,10060924|10003285
+PV135,abdominal lymphadenopathy,abdominal lymphadenopathy,RESOLVED,1,10073485
+PV136,abdominal mass,abdominal mass,RESOLVED,1,10000077
+PV137,abdominal migraine,abdominal migraine,RESOLVED,1,10049714
+PV138,abdominal neoplasm,abdominal neoplasm,RESOLVED,1,10060925
+PV139,abdominal pain lower,abdominal pain lower,RESOLVED,1,10000084
+PV140,abdominal pain upper,abdominal pain upper,RESOLVED,1,10000087
+PV141,abdominal rebound tenderness,abdominal rebound tenderness,RESOLVED,1,10052489
+PV142,abdominal rigidity,abdominal rigidity,RESOLVED,1,10000090
+PV143,abdominal sepsis,abdominal sepsis,RESOLVED,1,10058040
+PV144,abdominal soft tissue necrosis,abdominal soft tissue necrosis,RESOLVED,1,10065775
+PV145,abdominal spasm,abdominal spasm,RESOLVED,1,10051889
+PV146,abdominal symptom,abdominal symptom,RESOLVED,1,10060926
+PV147,abdominal tenderness,abdominal tenderness,RESOLVED,1,10000097
+PV148,abdominal wall abscess,abdominal wall abscess,RESOLVED,1,10000099
+PV149,abdominal wall cyst,abdominal wall cyst,RESOLVED,1,10051634
+PV150,abdominal wall disorder,abdominal wall disorder,RESOLVED,1,10059625

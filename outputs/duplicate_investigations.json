@@ -1,0 +1,452 @@
+{
+  "INCOMING001__CASE001": {
+    "incoming_case_id": "INCOMING001",
+    "candidate_case_id": "CASE001",
+    "rule_score": 80.0,
+    "semantic_score": 0.9794338666540142,
+    "combined_score": 0.9076603199924086,
+    "classification": "High-confidence duplicate candidate",
+    "similarities": [
+      {
+        "field": "patient_age",
+        "label": "Patient age",
+        "incoming": "45",
+        "historical": "45"
+      },
+      {
+        "field": "patient_sex",
+        "label": "Patient sex",
+        "incoming": "Female",
+        "historical": "Female"
+      },
+      {
+        "field": "country",
+        "label": "Country",
+        "incoming": "India",
+        "historical": "India"
+      },
+      {
+        "field": "suspect_drug",
+        "label": "Suspect drug",
+        "incoming": "Drug A",
+        "historical": "Drug A"
+      },
+      {
+        "field": "indication",
+        "label": "Indication",
+        "incoming": "Hypertension",
+        "historical": "Hypertension"
+      },
+      {
+        "field": "event_date",
+        "label": "Event date",
+        "incoming": "2026-07-10",
+        "historical": "2026-07-10"
+      },
+      {
+        "field": "seriousness",
+        "label": "Seriousness",
+        "incoming": "Serious",
+        "historical": "Serious"
+      },
+      {
+        "field": "outcome",
+        "label": "Outcome",
+        "incoming": "Recovering",
+        "historical": "Recovering"
+      },
+      {
+        "field": "reporter_type",
+        "label": "Reporter type",
+        "incoming": "Physician",
+        "historical": "Physician"
+      }
+    ],
+    "differences": [
+      {
+        "field": "adverse_event",
+        "label": "Adverse event",
+        "incoming": "Acute renal impairment",
+        "historical": "Acute kidney injury"
+      }
+    ],
+    "retrieved_guidance": "chunk_id\n\nsource\n\ntext\n\nsimilarity_score",
+    "investigation": "**1. Similarity evidence**  \n- Rule‑based score: 80.00/100  \n- Semantic score: 0.9794  \n- Combined score: 0.9077 (classified as “High‑confidence duplicate candidate”)  \n- The two cases share identical demographic and reporting details:  \n  - Age: 45 years  \n  - Sex: Female  \n  - Country: India  \n  - Suspect drug: Drug A  \n  - Indication: Hypertension  \n  - Event date: 2026‑07‑10  \n  - Seriousness: Serious  \n  - Outcome: Recovering  \n  - Reporter type: Physician  \n  - Description: Not available  \n\n**2. Differences**  \n- **Adverse event terminology**:  \n  - Incoming case lists the event as “Acute renal impairment.”  \n  - Historical candidate lists the event as “Acute kidney injury.”  \n  - These terms are not identical; the guidance does not state that they are interchangeable without additional context.  \n- No other explicit differences are present in the available data.\n\n**3. Evidence interpretation**  \n- The high similarity scores reflect the near‑identical patient, drug, indication, date, seriousness, outcome, and reporter information.  \n- However, the differing adverse event terms represent a potential semantic distinction that could indicate either:  \n  1. The same clinical event described with slightly different wording, or  \n  2. Two distinct but related clinical events.  \n- Because the guidance requires that duplicate determination be based on a comprehensive assessment of all clinical details (including precise event definitions, laboratory values, and narrative descriptions), the current data set is insufficient to confirm duplication.  \n- The absence of a narrative description or additional clinical context prevents a definitive conclusion.\n\n**4. Human review recommendation**  \n- A qualified pharmacovigilance professional should review the full case narratives (if available), laboratory data, and any other supporting documentation to ascertain whether “Acute renal impairment” and “Acute kidney injury” refer to the same clinical event.  \n- The reviewer should also verify that no other distinguishing factors (e.g., timing of onset relative to drug exposure, concomitant medications, comorbidities) exist that could differentiate the two reports.  \n- Only after this detailed assessment can a reliable duplicate/non‑duplicate decision be made.\n\n*The final duplicate determination remains with a qualified pharmacovigilance professional.*",
+    "human_review_required": true
+  },
+  "INCOMING003__CASE002": {
+    "incoming_case_id": "INCOMING003",
+    "candidate_case_id": "CASE002",
+    "rule_score": 80.0,
+    "semantic_score": 0.9817522533063386,
+    "combined_score": 0.9090513519838032,
+    "classification": "High-confidence duplicate candidate",
+    "similarities": [
+      {
+        "field": "patient_age",
+        "label": "Patient age",
+        "incoming": "62",
+        "historical": "62"
+      },
+      {
+        "field": "patient_sex",
+        "label": "Patient sex",
+        "incoming": "Male",
+        "historical": "Male"
+      },
+      {
+        "field": "country",
+        "label": "Country",
+        "incoming": "USA",
+        "historical": "USA"
+      },
+      {
+        "field": "suspect_drug",
+        "label": "Suspect drug",
+        "incoming": "Drug B",
+        "historical": "Drug B"
+      },
+      {
+        "field": "indication",
+        "label": "Indication",
+        "incoming": "Diabetes",
+        "historical": "Diabetes"
+      },
+      {
+        "field": "event_date",
+        "label": "Event date",
+        "incoming": "2026-07-15",
+        "historical": "2026-07-15"
+      },
+      {
+        "field": "seriousness",
+        "label": "Seriousness",
+        "incoming": "Non-serious",
+        "historical": "Non-serious"
+      },
+      {
+        "field": "outcome",
+        "label": "Outcome",
+        "incoming": "Recovered",
+        "historical": "Recovered"
+      },
+      {
+        "field": "reporter_type",
+        "label": "Reporter type",
+        "incoming": "Pharmacist",
+        "historical": "Pharmacist"
+      }
+    ],
+    "differences": [
+      {
+        "field": "adverse_event",
+        "label": "Adverse event",
+        "incoming": "Low blood glucose",
+        "historical": "Hypoglycemia"
+      }
+    ],
+    "retrieved_guidance": "chunk_id\n\nsource\n\ntext\n\nsimilarity_score",
+    "investigation": "**1. Similarity evidence**  \n- Rule‑based score: 80.00/100  \n- Semantic score: 0.9818  \n- Combined score: 0.9091  \n- Classification: High‑confidence duplicate candidate  \n\nThese scores indicate that the two reports share a large proportion of structured fields (age, sex, country, suspect drug, indication, event date, seriousness, outcome, reporter type) and that the unstructured event descriptions are highly similar according to the semantic model.\n\n**2. Differences**  \n- **Adverse event terminology**:  \n  - Incoming case: “Low blood glucose”  \n  - Historical candidate: “Hypoglycemia”  \n  The two terms are not identical; the guidance does not explicitly state that they are synonyms.  \n- **Description field**: Both reports list “Not available,” so no additional distinguishing information is present.  \n- No other explicit differences are noted in the available data.\n\n**3. Evidence interpretation**  \nThe high similarity scores reflect the near‑identical demographic, clinical, and reporting details. However, the only explicit difference is the wording of the adverse event. Because the guidance does not confirm that “Low blood glucose” and “Hypoglycemia” are interchangeable, it is not possible to conclude that the events are the same based solely on the provided information. The semantic model’s high score may be driven by the overall similarity of the reports, but semantic similarity alone does not prove duplication. Therefore, the evidence is inconclusive: the reports could represent the same clinical event described with different terminology, or they could be distinct events that happen to share many other attributes.\n\n**4. Human review recommendation**  \nA qualified pharmacovigilance professional should review the two reports to determine whether the adverse event terms refer to the same clinical manifestation. This review should consider:\n- Clinical context and definitions of “Low blood glucose” versus “Hypoglycemia.”  \n- Any additional information that may be available in the full case files (e.g., laboratory values, timing of symptom onset).  \n- Standard operating procedures for handling synonymous event terms.\n\nThe final duplicate determination remains with a qualified pharmacovigilance professional.",
+    "human_review_required": true
+  },
+  "INCOMING004__CASE001": {
+    "incoming_case_id": "INCOMING004",
+    "candidate_case_id": "CASE001",
+    "rule_score": 65.0,
+    "semantic_score": 0.9836026896886304,
+    "combined_score": 0.8501616138131783,
+    "classification": "Potential duplicate - human review",
+    "similarities": [
+      {
+        "field": "patient_sex",
+        "label": "Patient sex",
+        "incoming": "Female",
+        "historical": "Female"
+      },
+      {
+        "field": "country",
+        "label": "Country",
+        "incoming": "India",
+        "historical": "India"
+      },
+      {
+        "field": "suspect_drug",
+        "label": "Suspect drug",
+        "incoming": "Drug A",
+        "historical": "Drug A"
+      },
+      {
+        "field": "indication",
+        "label": "Indication",
+        "incoming": "Hypertension",
+        "historical": "Hypertension"
+      },
+      {
+        "field": "adverse_event",
+        "label": "Adverse event",
+        "incoming": "Acute kidney injury",
+        "historical": "Acute kidney injury"
+      },
+      {
+        "field": "seriousness",
+        "label": "Seriousness",
+        "incoming": "Serious",
+        "historical": "Serious"
+      },
+      {
+        "field": "outcome",
+        "label": "Outcome",
+        "incoming": "Recovering",
+        "historical": "Recovering"
+      },
+      {
+        "field": "reporter_type",
+        "label": "Reporter type",
+        "incoming": "Physician",
+        "historical": "Physician"
+      }
+    ],
+    "differences": [
+      {
+        "field": "patient_age",
+        "label": "Patient age",
+        "incoming": "28",
+        "historical": "45"
+      },
+      {
+        "field": "event_date",
+        "label": "Event date",
+        "incoming": "2026-08-10",
+        "historical": "2026-07-10"
+      }
+    ],
+    "retrieved_guidance": "chunk_id\n\nsource\n\ntext\n\nsimilarity_score",
+    "investigation": "**1. Similarity evidence**  \n- Both cases involve the same suspect drug (Drug A) used for the same indication (Hypertension).  \n- The adverse event reported is identical: Acute kidney injury.  \n- Both reports are from physicians, classified as serious, with a recovering outcome, and originate from the same country (India).  \n- The semantic similarity score (0.9836) and combined score (0.8502) indicate a very high degree of overlap in the textual and structured elements of the two reports.  \n\n**2. Differences**  \n- **Patient age**: Incoming case – 28 years; Historical candidate – 45 years.  \n- **Event date**: Incoming case – 10 August 2026; Historical candidate – 10 July 2026.  \n- No other distinguishing clinical or demographic details are available (description fields are missing).  \n\n**3. Evidence interpretation**  \n- The high similarity scores reflect the shared drug, indication, AE, seriousness, outcome, reporter type, and country.  \n- The age and event‑date differences are explicit and could represent distinct clinical events or the same event reported twice with a one‑month lag.  \n- Because the available data do not include additional identifiers (e.g., patient ID, medical record number, or detailed clinical narrative), it is impossible to conclusively determine whether the two reports describe the same incident or two separate incidents.  \n- The absence of a description field means we cannot assess whether the clinical context or severity details differ.  \n\n**4. Human review recommendation**  \n- A qualified pharmacovigilance professional should review the full case histories, including any additional documentation that may exist outside the provided fields, to ascertain whether the age and event‑date differences are consistent with a duplicate report or represent two distinct events.  \n- The decision cannot be made solely on the current data set; therefore, the final duplicate determination remains with a qualified pharmacovigilance professional.",
+    "human_review_required": true
+  },
+  "INCOMING008__CASE003": {
+    "incoming_case_id": "INCOMING008",
+    "candidate_case_id": "CASE003",
+    "rule_score": 30.0,
+    "semantic_score": 0.8734179073966029,
+    "combined_score": 0.6440507444379617,
+    "classification": "Potential duplicate - human review",
+    "similarities": [
+      {
+        "field": "patient_sex",
+        "label": "Patient sex",
+        "incoming": "Female",
+        "historical": "Female"
+      },
+      {
+        "field": "suspect_drug",
+        "label": "Suspect drug",
+        "incoming": "Drug C",
+        "historical": "Drug C"
+      },
+      {
+        "field": "indication",
+        "label": "Indication",
+        "incoming": "Rheumatoid arthritis",
+        "historical": "Rheumatoid arthritis"
+      },
+      {
+        "field": "seriousness",
+        "label": "Seriousness",
+        "incoming": "Non-serious",
+        "historical": "Non-serious"
+      },
+      {
+        "field": "outcome",
+        "label": "Outcome",
+        "incoming": "Recovered",
+        "historical": "Recovered"
+      }
+    ],
+    "differences": [
+      {
+        "field": "patient_age",
+        "label": "Patient age",
+        "incoming": "52",
+        "historical": "34"
+      },
+      {
+        "field": "country",
+        "label": "Country",
+        "incoming": "India",
+        "historical": "UK"
+      },
+      {
+        "field": "adverse_event",
+        "label": "Adverse event",
+        "incoming": "Nausea",
+        "historical": "Headache"
+      },
+      {
+        "field": "event_date",
+        "label": "Event date",
+        "incoming": "2026-08-18",
+        "historical": "2026-07-20"
+      },
+      {
+        "field": "reporter_type",
+        "label": "Reporter type",
+        "incoming": "Physician",
+        "historical": "Consumer"
+      }
+    ],
+    "retrieved_guidance": "chunk_id\n\nsource\n\ntext\n\nsimilarity_score",
+    "investigation": "**1. Similarity evidence**  \n- Both cases involve the same suspect drug (Drug C) and the same indication (rheumatoid arthritis).  \n- The combined similarity score (0.6441) and the high semantic score (0.8734) indicate that the two reports share many common elements in their structured fields.  \n- The rule‑based score (30/100) reflects some overlap in the basic data fields (drug, indication, seriousness, outcome).  \n\n**2. Differences**  \n| Field | INCOMING008 | CASE003 | Explicit difference |\n|-------|-------------|---------|---------------------|\n| Patient age | 52 | 34 | 18‑year age gap |\n| Patient sex | Female | Female | Same |\n| Country | India | UK | Different countries |\n| Adverse event | Nausea | Headache | Different events |\n| Event date | 2026‑08‑18 | 2026‑07‑20 | 29‑day difference |\n| Reporter type | Physician | Consumer | Different reporter sources |\n| Description | Not available | Not available | No additional narrative in either case |\n\n**3. Evidence interpretation**  \n- The shared drug and indication contribute to the high semantic similarity, but the adverse event, age, country, event date, and reporter type differ substantially.  \n- The absence of narrative descriptions in both reports limits the ability to assess contextual details that might clarify whether the events are related or distinct.  \n- High similarity scores alone do not confirm duplication; they merely flag potential overlap that warrants closer inspection.  \n- Because key distinguishing data (e.g., event type, demographic details, timing) are present and differ, it is not possible to conclude that the two reports describe the same patient event.  \n\n**4. Human review recommendation**  \nA qualified pharmacovigilance professional should review the full case details, including any additional documentation that may exist outside the structured fields, to determine whether these reports represent a duplicate or two separate events. The final duplicate determination remains with a qualified pharmacovigilance professional.",
+    "human_review_required": true
+  },
+  "INCOMING009__CASE004": {
+    "incoming_case_id": "INCOMING009",
+    "candidate_case_id": "CASE004",
+    "rule_score": 35.0,
+    "semantic_score": 0.8890013839769623,
+    "combined_score": 0.6734008303861774,
+    "classification": "Potential duplicate - human review",
+    "similarities": [
+      {
+        "field": "patient_sex",
+        "label": "Patient sex",
+        "incoming": "Male",
+        "historical": "Male"
+      },
+      {
+        "field": "suspect_drug",
+        "label": "Suspect drug",
+        "incoming": "Drug D",
+        "historical": "Drug D"
+      },
+      {
+        "field": "indication",
+        "label": "Indication",
+        "incoming": "Asthma",
+        "historical": "Asthma"
+      },
+      {
+        "field": "reporter_type",
+        "label": "Reporter type",
+        "incoming": "Physician",
+        "historical": "Physician"
+      }
+    ],
+    "differences": [
+      {
+        "field": "patient_age",
+        "label": "Patient age",
+        "incoming": "66",
+        "historical": "51"
+      },
+      {
+        "field": "country",
+        "label": "Country",
+        "incoming": "USA",
+        "historical": "India"
+      },
+      {
+        "field": "adverse_event",
+        "label": "Adverse event",
+        "incoming": "Skin rash",
+        "historical": "Anaphylactic reaction"
+      },
+      {
+        "field": "event_date",
+        "label": "Event date",
+        "incoming": "2026-08-20",
+        "historical": "2026-07-25"
+      },
+      {
+        "field": "seriousness",
+        "label": "Seriousness",
+        "incoming": "Non-serious",
+        "historical": "Serious"
+      },
+      {
+        "field": "outcome",
+        "label": "Outcome",
+        "incoming": "Recovering",
+        "historical": "Recovered"
+      }
+    ],
+    "retrieved_guidance": "chunk_id\n\nsource\n\ntext\n\nsimilarity_score",
+    "investigation": "**1. Similarity evidence**  \n- **Suspect drug**: Both cases list *Drug D* as the suspected medication.  \n- **Indication**: Both cases are reported for *Asthma*.  \n- **Reporter type**: Both reports were submitted by a *Physician*.  \n- **Similarity scores**:  \n  - Rule‑based score: 35.00/100  \n  - Semantic score: 0.8890  \n  - Combined score: 0.6734 (classified as “Potential duplicate – human review”).  \n\n**2. Differences**  \n| Attribute | INCOMING009 | CASE004 | Explicit difference |\n|-----------|-------------|---------|---------------------|\n| Patient age | 66 | 51 | 15‑year age gap |\n| Patient sex | Male | Male | Same |\n| Country | USA | India | Different countries |\n| Adverse event | Skin rash | Anaphylactic reaction | Different event types |\n| Event date | 2026‑08‑20 | 2026‑07‑25 | 26‑day interval |\n| Seriousness | Non‑serious | Serious | Opposite seriousness classification |\n| Outcome | Recovering | Recovered | Outcome wording differs (ongoing vs. completed) |\n| Description | Not available | Not available | No additional narrative in either case |\n\n**3. Evidence interpretation**  \n- The shared drug, indication, and reporter type contribute to the high semantic similarity score.  \n- However, the adverse events are distinct (skin rash vs. anaphylactic reaction), and the seriousness and outcome classifications differ markedly.  \n- The patient demographics (age, country) and event dates are also different, reducing the likelihood that these reports describe the same patient event.  \n- The absence of narrative descriptions in both cases limits the ability to assess contextual overlap (e.g., timing of rash relative to drug exposure, presence of other symptoms).  \n- High semantic similarity alone does not confirm duplication; it merely indicates overlapping terminology or structure.\n\n**4. Human review recommendation**  \nGiven the conflicting clinical details (event type, seriousness, outcome, age, country) and the lack of descriptive information, a qualified pharmacovigilance professional must review the full case histories, source documents, and any additional data that may be available. Only a human reviewer can determine whether these reports represent the same patient event, a related adverse reaction, or entirely separate incidents.  \n\n*The final duplicate determination remains with a qualified pharmacovigilance professional.*",
+    "human_review_required": true
+  },
+  "INCOMING012__CASE005": {
+    "incoming_case_id": "INCOMING012",
+    "candidate_case_id": "CASE005",
+    "rule_score": 15.0,
+    "semantic_score": 0.8440552317146343,
+    "combined_score": 0.5664331390287805,
+    "classification": "Potential duplicate - human review",
+    "similarities": [
+      {
+        "field": "patient_sex",
+        "label": "Patient sex",
+        "incoming": "Female",
+        "historical": "Female"
+      },
+      {
+        "field": "indication",
+        "label": "Indication",
+        "incoming": "Migraine",
+        "historical": "Migraine"
+      },
+      {
+        "field": "seriousness",
+        "label": "Seriousness",
+        "incoming": "Non-serious",
+        "historical": "Non-serious"
+      },
+      {
+        "field": "reporter_type",
+        "label": "Reporter type",
+        "incoming": "Physician",
+        "historical": "Physician"
+      }
+    ],
+    "differences": [
+      {
+        "field": "patient_age",
+        "label": "Patient age",
+        "incoming": "31",
+        "historical": "39"
+      },
+      {
+        "field": "country",
+        "label": "Country",
+        "incoming": "India",
+        "historical": "Germany"
+      },
+      {
+        "field": "suspect_drug",
+        "label": "Suspect drug",
+        "incoming": "Drug J",
+        "historical": "Drug E"
+      },
+      {
+        "field": "adverse_event",
+        "label": "Adverse event",
+        "incoming": "Vomiting",
+        "historical": "Nausea"
+      },
+      {
+        "field": "event_date",
+        "label": "Event date",
+        "incoming": "2026-08-28",
+        "historical": "2026-08-01"
+      },
+      {
+        "field": "outcome",
+        "label": "Outcome",
+        "incoming": "Recovered",
+        "historical": "Recovering"
+      }
+    ],
+    "retrieved_guidance": "chunk_id\n\nsource\n\ntext\n\nsimilarity_score",
+    "investigation": "**1. Similarity evidence**  \n- Rule‑based similarity score: 15.00/100  \n- Semantic similarity score: 0.8441  \n- Combined similarity score: 0.5664  \n- Classification: “Potential duplicate – human review”  \n\nThese scores indicate that the two cases share a moderate to high degree of semantic overlap, primarily due to the shared indication (migraine) and the nature of the adverse event (both gastrointestinal‑related).  \n\n**2. Differences**  \n| Attribute | INCOMING012 | CASE005 | Explicit difference |\n|-----------|-------------|---------|---------------------|\n| Patient age | 31 | 39 | 8‑year age gap |\n| Patient sex | Female | Female | Same |\n| Country | India | Germany | Different countries |\n| Suspect drug | Drug J | Drug E | Different drugs |\n| Indication | Migraine | Migraine | Same |\n| Adverse event | Vomiting | Nausea | Different symptom |\n| Event date | 2026‑08‑28 | 2026‑08‑01 | 27‑day difference |\n| Seriousness | Non‑serious | Non‑serious | Same |\n| Outcome | Recovered | Recovering | Different wording |\n| Reporter type | Physician | Physician | Same |\n| Description | Not available | Not available | Same (no data) |\n\n**3. Evidence interpretation**  \n- The high semantic score reflects the shared context of migraine treatment and a gastrointestinal adverse event, but the specific event (vomiting vs. nausea) and the suspect drugs differ.  \n- The rule‑based score is low, suggesting limited overlap in structured fields (e.g., drug name, event date).  \n- The age, country, and drug differences are clinically significant and could indicate distinct pharmacological exposures or population characteristics.  \n- The outcome descriptions differ, though both indicate recovery, which may or may not be clinically equivalent.  \n- No additional narrative or laboratory data are available to clarify whether the events are related to the same underlying mechanism or represent separate incidents.\n\n**4. Human review recommendation**  \nGiven the mixed evidence—moderate semantic similarity but clear differences in key clinical and demographic variables—a qualified pharmacovigilance professional should review the cases. The reviewer should assess whether the vomiting event in INCOMING012 could plausibly be a duplicate of the nausea event in CASE005, considering drug‑specific adverse event profiles, patient demographics, and reporting context.  \n\n**Final note**  \nThe final duplicate determination remains with a qualified pharmacovigilance professional.",
+    "human_review_required": true
+  }
+}

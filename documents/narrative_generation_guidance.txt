@@ -1,0 +1,96 @@
+PV_NarrativeGuard - Safety Narrative Generation Guidance
+DEMO / SYNTHETIC KNOWLEDGE BASE
+
+Purpose
+-------
+This document provides demonstration guidance for generating
+structured safety narratives from Individual Case Safety Reports
+(ICSRs).
+
+Narrative Principles
+--------------------
+A safety narrative should present the relevant clinical information
+in a clear, concise, chronological, and medically meaningful manner.
+
+The narrative should be based only on information available in
+the source ICSR and relevant supporting evidence.
+
+Core Information
+----------------
+A safety narrative may include:
+
+- Patient demographics
+- Relevant medical history or indication
+- Suspect medicinal product
+- Relevant treatment information
+- Adverse event
+- Event onset or event date
+- Seriousness
+- Clinical course
+- Outcome
+- Relevant investigations
+- Treatment provided for the event
+- Reporter information
+- Relevant follow-up information
+
+Chronological Structure
+-----------------------
+Where dates are available, information should be presented in a
+logical chronological sequence.
+
+The narrative should distinguish between:
+
+1. Information known before the event
+2. Event onset and clinical presentation
+3. Investigations and treatment
+4. Clinical course
+5. Outcome and follow-up
+
+Source Grounding
+----------------
+The narrative must remain grounded in the source case.
+
+The system should not invent:
+
+- Symptoms
+- Laboratory results
+- Diagnoses
+- Treatments
+- Dates
+- Patient history
+- Clinical outcomes
+- Causality conclusions
+
+If important information is unavailable, the narrative should
+not fabricate the missing information.
+
+AI-Assisted Generation
+----------------------
+An AI model may assist with organizing and summarizing the case,
+but the generated narrative should be treated as draft content.
+
+The AI should use relevant case information and supporting
+knowledge retrieved by the RAG system.
+
+Human Review
+------------
+A qualified pharmacovigilance professional should review the
+generated narrative before it is finalized.
+
+The reviewer should verify that:
+
+- The narrative accurately represents the source ICSR.
+- Important clinical information has not been omitted.
+- No unsupported information has been introduced.
+- Dates and chronology are consistent.
+- The wording is clear and appropriate.
+- The narrative does not change the meaning of the source case.
+
+Narrative Output
+----------------
+The system should produce a concise narrative that allows a
+reviewer to understand the relevant clinical course without
+having to reconstruct the case manually from multiple fields.
+
+The generated narrative is a decision-support artifact and
+should not replace human pharmacovigilance review.

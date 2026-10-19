@@ -1,0 +1,13 @@
+case_id,patient_age,patient_sex,country,suspect_drug,indication,adverse_event,event_date,seriousness,outcome,reporter_type,case_description
+INCOMING001,45,Female,India,Drug A,Hypertension,Acute renal impairment,2026-07-10,Serious,Recovering,Physician,A 45-year-old woman treated with Drug A for hypertension developed acute renal impairment on 10-Jul-2026.
+INCOMING002,70,Male,Canada,Drug F,Hyperlipidemia,Dizziness,2026-08-05,Non-serious,Recovered,Physician,A 70-year-old male receiving Drug F for hyperlipidemia reported dizziness on 05-Aug-2026.
+INCOMING003,62,Male,USA,Drug B,Diabetes,Low blood glucose,2026-07-15,Non-serious,Recovered,Pharmacist,A 62-year-old man using Drug B for diabetes experienced low blood glucose on 15-Jul-2026.
+INCOMING004,28,Female,India,Drug A,Hypertension,Acute kidney injury,2026-08-10,Serious,Recovering,Physician,A 28-year-old female receiving Drug A for hypertension developed acute kidney injury on 10-Aug-2026.
+INCOMING005,-5,Female,India,Drug G,Pain,Nausea,2026-08-12,Non-serious,Recovered,Physician,Invalid test case with a negative patient age.
+INCOMING006,55,Male,India,Drug H,Diabetes,Dizziness,not-a-date,Non-serious,Recovered,Physician,Invalid test case with an invalid event date.
+INCOMING007,41,Female,India,,Hypertension,Headache,2026-08-15,Non-serious,Recovered,Physician,Invalid test case with a missing suspect drug.
+INCOMING008,52,Female,India,Drug C,Rheumatoid arthritis,Nausea,2026-08-18,Non-serious,Recovered,Physician,A 52-year-old woman receiving Drug C for rheumatoid arthritis developed nausea on 18-Aug-2026.
+INCOMING009,66,Male,USA,Drug D,Asthma,Skin rash,2026-08-20,Non-serious,Recovering,Physician,A 66-year-old man treated with Drug D for asthma developed a skin rash on 20-Aug-2026.
+INCOMING010,39,Female,Canada,Drug E,Depression,Fatigue,2026-08-22,Non-serious,Recovered,Pharmacist,A 39-year-old woman receiving Drug E for depression reported fatigue on 22-Aug-2026.
+INCOMING011,74,Male,UK,Drug I,Heart failure,Peripheral edema,2026-08-25,Serious,Recovering,Physician,A 74-year-old man treated with Drug I for heart failure developed peripheral edema on 25-Aug-2026.
+INCOMING012,31,Female,India,Drug J,Migraine,Vomiting,2026-08-28,Non-serious,Recovered,Physician,A 31-year-old woman receiving Drug J for migraine experienced vomiting on 28-Aug-2026.

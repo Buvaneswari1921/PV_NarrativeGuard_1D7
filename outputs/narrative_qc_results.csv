@@ -1,0 +1,26 @@
+case_id,overall_status,qc_reason,checked_field_count,failed_field_count,missing_source_field_count,patient_age_qc,sex_qc,country_qc,suspect_drug_qc,indication_qc,adverse_event_qc,event_date_qc,seriousness_qc,outcome_qc,reporter_type_qc,generated_narrative
+INCOMING001,PASS,All available source fields were covered.,10,0,0,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,"A 45-year-old female patient from India was receiving Drug A for Hypertension.
+
+The patient experienced acute renal impairment on 10 July 2026.
+
+The event was reported as serious. The reported outcome was Recovering.
+
+The report was submitted by a physician."
+INCOMING002,PASS,All available source fields were covered.,10,0,0,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,"A 70-year-old male patient from Canada was receiving Drug F for Hyperlipidemia.
+
+The patient experienced dizziness on 05 August 2026.
+
+The event was reported as non-serious. The patient recovered from the event.
+
+The report was submitted by a physician."
+INCOMING003,BLOCKED_DUPLICATE,Human PV decision is DUPLICATE; narrative generation blocked.,0,0,10,NOT_CHECKED,NOT_CHECKED,NOT_CHECKED,NOT_CHECKED,NOT_CHECKED,NOT_CHECKED,NOT_CHECKED,NOT_CHECKED,NOT_CHECKED,NOT_CHECKED,
+INCOMING004,PASS,All available source fields were covered.,10,0,0,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,PASS,"A 28-year-old female patient from India was receiving Drug A for Hypertension.
+
+The patient experienced acute kidney injury on 10 August 2026.
+
+The event was reported as serious. The reported outcome was Recovering.
+
+The report was submitted by a physician."
+INCOMING005,EXCLUDED,Invalid ICSR excluded from narrative generation and QC.,0,0,10,NOT_CHECKED,NOT_CHECKED,NOT_CHECKED,NOT_CHECKED,NOT_CHECKED,NOT_CHECKED,NOT_CHECKED,NOT_CHECKED,NOT_CHECKED,NOT_CHECKED,
+INCOMING006,EXCLUDED,Invalid ICSR excluded from narrative generation and QC.,0,0,10,NOT_CHECKED,NOT_CHECKED,NOT_CHECKED,NOT_CHECKED,NOT_CHECKED,NOT_CHECKED,NOT_CHECKED,NOT_CHECKED,NOT_CHECKED,NOT_CHECKED,
+INCOMING007,EXCLUDED,Invalid ICSR excluded from narrative generation and QC.,0,0,10,NOT_CHECKED,NOT_CHECKED,NOT_CHECKED,NOT_CHECKED,NOT_CHECKED,NOT_CHECKED,NOT_CHECKED,NOT_CHECKED,NOT_CHECKED,NOT_CHECKED,

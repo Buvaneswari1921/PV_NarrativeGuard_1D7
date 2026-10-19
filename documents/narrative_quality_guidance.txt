@@ -1,0 +1,90 @@
+PV_NarrativeGuard - Safety Narrative Quality Guidance
+DEMO / SYNTHETIC KNOWLEDGE BASE
+
+Purpose
+-------
+This document provides demonstration guidance for reviewing
+the quality of AI-generated pharmacovigilance safety narratives.
+
+Quality Review Principles
+--------------------------
+A generated safety narrative should be reviewed for accuracy,
+completeness, consistency, clarity, and appropriate use of
+source information.
+
+The narrative should remain faithful to the underlying ICSR.
+
+Accuracy
+--------
+The narrative should accurately represent information contained
+in the source case.
+
+Reviewers should verify:
+
+- Patient information
+- Suspect medicinal product
+- Adverse event
+- Event date
+- Seriousness
+- Outcome
+- Clinical information
+- Reporter information
+
+Unsupported information should not be introduced.
+
+Completeness
+------------
+The narrative should contain the important information available
+in the source ICSR.
+
+Missing important clinical information should be identified
+during quality review.
+
+Chronology and Consistency
+--------------------------
+Dates and clinical events should follow a logical sequence.
+
+The narrative should not contain contradictions between different
+parts of the source case.
+
+For example, the narrative should not describe a patient as
+recovered if the source case indicates that the outcome is
+recovering.
+
+Grounding
+---------
+Every factual statement in the generated narrative should be
+supported by the source ICSR or by clearly identified supporting
+information.
+
+The system should flag statements that cannot be supported by
+the available evidence.
+
+Clarity
+-------
+The narrative should be concise, readable, and medically
+meaningful.
+
+Unnecessary repetition should be avoided.
+
+Human Quality Review
+--------------------
+AI-generated narratives should be reviewed by an appropriate
+pharmacovigilance professional before final use.
+
+The reviewer should verify the generated narrative against the
+source ICSR and supporting evidence.
+
+QC Outcome
+----------
+The quality review may identify:
+
+- Pass
+- Pass with minor revision
+- Requires major revision
+- Unsupported information
+- Missing important information
+- Contradictory information
+
+The QC process is intended to assist human review rather than
+replace pharmacovigilance judgment.

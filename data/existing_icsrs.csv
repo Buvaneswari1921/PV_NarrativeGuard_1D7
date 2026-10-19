@@ -1,0 +1,6 @@
+case_id,patient_age,patient_sex,country,suspect_drug,indication,adverse_event,event_date,seriousness,outcome,reporter_type,case_description
+CASE001,45,Female,India,Drug A,Hypertension,Acute kidney injury,2026-07-10,Serious,Recovering,Physician,A 45-year-old female receiving Drug A for hypertension developed acute kidney injury on 10-Jul-2026.
+CASE002,62,Male,USA,Drug B,Diabetes,Hypoglycemia,2026-07-15,Non-serious,Recovered,Pharmacist,A 62-year-old male receiving Drug B for diabetes experienced hypoglycemia on 15-Jul-2026.
+CASE003,34,Female,UK,Drug C,Rheumatoid arthritis,Headache,2026-07-20,Non-serious,Recovered,Consumer,A 34-year-old female treated with Drug C for rheumatoid arthritis reported headache on 20-Jul-2026.
+CASE004,51,Male,India,Drug D,Asthma,Anaphylactic reaction,2026-07-25,Serious,Recovered,Physician,A 51-year-old male receiving Drug D for asthma experienced an anaphylactic reaction on 25-Jul-2026.
+CASE005,39,Female,Germany,Drug E,Migraine,Nausea,2026-08-01,Non-serious,Recovering,Physician,A 39-year-old female treated with Drug E for migraine developed nausea on 01-Aug-2026.

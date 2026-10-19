@@ -1,0 +1,5 @@
+incoming_case_id,expected_duplicate,expected_case_id,duplicate_type,candidate_case_id,rule_score,matching_fields,semantic_score,combined_score,classification,predicted_duplicate,correct
+INCOMING001,True,CASE001,Paraphrased duplicate,CASE001,80,"patient_age, patient_sex, country, suspect_drug, event_date, reporter_type",0.9794,0.90764,High-confidence duplicate candidate,True,True
+INCOMING002,False,,New case,CASE002,10,patient_sex,0.7927,0.51562,Low similarity,False,True
+INCOMING003,True,CASE002,Paraphrased duplicate,CASE002,80,"patient_age, patient_sex, country, suspect_drug, event_date, reporter_type",0.9818,0.90908,High-confidence duplicate candidate,True,True
+INCOMING004,False,,Similar drug/event but different patient and event date,CASE001,65,"patient_sex, country, suspect_drug, adverse_event, reporter_type",0.9835,0.8501,Potential duplicate - human review,False,True

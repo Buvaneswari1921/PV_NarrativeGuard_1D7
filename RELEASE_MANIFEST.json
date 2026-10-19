@@ -1,0 +1,28 @@
+{
+  "release": "1D7",
+  "status": "final-consolidated-build",
+  "baseline": "Phase 1C",
+  "baseline_tests_passed": 50,
+  "canonical_pages": [
+    "Dashboard",
+    "ICSR Work Queue",
+    "Duplicate Review",
+    "Narrative Generation",
+    "Narrative QC",
+    "Audit Trail"
+  ],
+  "meddra_controls": [
+    "PV Core 150",
+    "clinical expression resolution",
+    "negation protection",
+    "curated candidate enrichment",
+    "controlled ambiguity",
+    "FAISS evidence retrieval",
+    "knowledge-gap human review"
+  ],
+  "human_in_the_loop": [
+    "duplicate review gate",
+    "knowledge-gap review",
+    "narrative QC review"
+  ]
+}

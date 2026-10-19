@@ -1,0 +1,13 @@
+case_id,is_valid,validation_issues
+INCOMING001,True,
+INCOMING002,True,
+INCOMING003,True,
+INCOMING004,True,
+INCOMING005,False,Patient age must be between 0 and 120.
+INCOMING006,False,Event date is not a valid date.
+INCOMING007,False,Missing required field: suspect_drug
+INCOMING008,True,
+INCOMING009,True,
+INCOMING010,True,
+INCOMING011,True,
+INCOMING012,True,

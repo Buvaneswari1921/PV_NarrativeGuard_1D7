@@ -1,0 +1,91 @@
+PV_NarrativeGuard - Duplicate Detection Guidance
+DEMO / SYNTHETIC KNOWLEDGE BASE
+
+Purpose
+-------
+This document provides demonstration guidance for assessing
+potential duplicate Individual Case Safety Reports (ICSRs).
+
+Duplicate Assessment Principles
+-------------------------------
+A potential duplicate should be assessed using multiple pieces
+of evidence rather than relying on a single matching field.
+
+Relevant case attributes may include:
+
+- Patient age
+- Patient sex
+- Country
+- Suspect medicinal product
+- Indication
+- Adverse event
+- Event date
+- Seriousness
+- Outcome
+- Reporter type
+- Clinical description
+
+Structured Evidence
+-------------------
+Exact matches in structured fields can provide useful evidence
+when screening an incoming ICSR against historical cases.
+
+Important fields such as patient demographics, suspect drug,
+adverse event, and event date should be considered together.
+
+Semantic Evidence
+-----------------
+Two reports may describe the same clinical event using different
+terminology.
+
+Examples:
+
+"Acute kidney injury" and "acute renal impairment" may describe
+similar clinical concepts.
+
+"Hypoglycemia" and "low blood glucose" may describe similar
+clinical concepts.
+
+Semantic similarity can therefore be used to identify candidate
+cases that may not be detected through exact text matching.
+
+Potential False Positives
+--------------------------
+High similarity does not automatically mean that two reports
+are duplicates.
+
+Two reports may contain the same medicinal product and similar
+adverse events while representing different patients or
+different clinical events.
+
+Differences in patient demographics, event dates, clinical
+details, or other case information should be considered during
+the investigation.
+
+Human Review
+------------
+Potential duplicates should be reviewed by a qualified
+pharmacovigilance professional before a final duplicate
+decision is made.
+
+The system should support the review by presenting relevant
+evidence and candidate cases.
+
+The system should not automatically merge, delete, or close
+cases solely because a similarity score exceeds a threshold.
+
+Decision Support
+----------------
+Duplicate detection should be treated as an investigation
+support process.
+
+The AI system should provide:
+
+1. Candidate historical cases
+2. Structured matching evidence
+3. Semantic similarity evidence
+4. Relevant supporting guidance
+5. A clear explanation of why a case requires review
+
+The final duplicate determination remains with the
+appropriate human pharmacovigilance reviewer.
